@@ -60,9 +60,4 @@ function kupiono(){
 }
 }
 
-// function koszyk(){
 
-//     let kosz = document.getElementsByClassName("kosz")[0];
-//     kosz.getElementsByClassName.
-
-// }

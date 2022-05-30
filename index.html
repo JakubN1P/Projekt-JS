@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOSTKI RUBIKA 3x3</title>
+    <link rel="stylesheet" href="index_style_2.css"/>
+    <!--CCIONKA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <!--CCIONKA-->
+</head>
+<body>
+    <header id="head">
+        <div class="wyg1">KOSTKI</div> <div class="wyg2">RUBIKA</div> <div class=" wyg3">3x3</div>
+    </header>
+    <main id="main">
+        <label>Wybierz</label> <label>produkt</label>
+    <form name="for" >
+        <select onchange="fun()" class="wpisz">
+            <option  value="0">----</option>
+            <option  value="100" >Kostka Rubika</option>
+            <option  value="150" >Kostka GUN</option>
+            <option  value="400" >Kostka GO</option>
+            <option  value="500" >Kostka man-x</option>
+        </select>
+    </form>
+    <!-- <div class="kosz">
+        <table border="1px" class="table">
+            <tr>
+                <th colspan='3' style="height: 30px;">Koszyk</th>
+            </tr>
+            <tr style="height: 30px;"><td>Produkt</td><td>Ilość</td><td>Cena</td></tr>
+
+        </table>
+    </div> -->
+        <img src="" id="picture">
+<div class="wpisz1">
+<input class="wpisz2" type="number" placeholder="Podaj ilość" onchange="cena()">
+<input class="wpisz2" type="number" placeholder="Cena" onchange="cena()" disabled>
+<button class="wpisz3" onclick="kupiono()">Kup</button>
+</div>
+    </main>
+    <footer id="foot">
+        <div id="zegar"></div>
+        <h3>Kuba Nocoń 1P</h3>
+        <!-- <img src="kosz.png" id="kosz" onclick="koszyk()"/> -->
+    </footer>
+</body>
+<script src="JS.js"></script>
+</html>
